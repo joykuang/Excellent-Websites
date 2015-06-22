@@ -1,0 +1,122 @@
+/* CN localized*/
+.page-overview .section-design .design-hero-image {
+    background-image: url("../img/overview/design_large.png");
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-overview .section-design .design-hero-image {
+        background-image: url("../img/overview/design_large_2x.png");
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-design .design-hero-image {
+        background-image: url("../img/overview/design_medium.png");
+    }
+}
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-overview .section-design .design-hero-image {
+        background-image: url("../img/overview/design_medium_2x.png");
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-design .design-hero-image {
+        background-image: url("../img/overview/design_small.png");
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-overview .section-design .design-hero-image {
+        background-image: url("../img/overview/design_small_2x.png");
+    }
+}
+.page-overview .section-apps .apps-hero-image {
+    background-image: url("../img/overview/apps_large.png");
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-overview .section-apps .apps-hero-image {
+        background-image: url("../img/overview/apps_large_2x.png");
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-apps .apps-hero-image {
+        background-image: url("../img/overview/apps_medium.png");
+    }
+}
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-overview .section-apps .apps-hero-image {
+        background-image: url("../img/overview/apps_medium_2x.png");
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-apps .apps-hero-image {
+        background-image: url("../img/overview/apps_small.png");
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-overview .section-apps .apps-hero-image {
+        background-image: url("../img/overview/apps_small_2x.png");
+    }
+}
+.page-overview .section-continuity .continuity-image {
+    background-image: url("../img/overview/mac_ios_large.png");display: block;
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-overview .section-continuity .continuity-image {
+        background-image: url("../img/overview/mac_ios_large_2x.png");
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-continuity .continuity-image {
+        background-image: url("../img/overview/mac_ios_medium.png");
+    }
+}
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-overview .section-continuity .continuity-image {
+        background-image: url("../img/overview/mac_ios_medium_2x.png");
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-continuity .continuity-image {
+        background-image: url("../img/overview/mac_ios_small.png");
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-overview .section-continuity .continuity-image {
+        background-image: url("../img/overview/mac_ios_small_2x.png");
+    }
+}
+.page-overview .section-developer .swift-image {
+    background-image: url("../img/overview/intro_swift_large.png");
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-overview .section-developer .swift-image {
+        background-image: url("../img/overview/intro_swift_large_2x.png");
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-developer .swift-image {
+        background-image: url("../img/overview/intro_swift_medium.png");
+    }
+}
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-overview .section-developer .swift-image {
+        background-image: url("../img/overview/intro_swift_medium_2x.png");
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .swift-image {
+        background-image: url("../img/overview/intro_swift_small.png");
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-overview .section-developer .swift-image {
+        background-image: url("../img/overview/intro_swift_small_2x.png");
+    }
+}
+@media only screen and (max-device-width: 768px) and (max-width: 735px) {
+    .main h1 br, .main h2 br, .main h3 br {
+        display: block;
+    }
+}
+.hack-line {
+    display: inline-block;
+    width: 0.61em;
+}

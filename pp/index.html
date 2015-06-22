@@ -1,0 +1,67 @@
+
+<!doctype html>
+<html>
+  <head>
+    <title>Piano Phase</title>
+    <meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta property="og:image" content="http://www.pianophase.com/images/piano_phase_600x600_96dpi.jpg" />
+	<meta property="og:url" content="http://www.pianophase.com" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Piano Phase" />
+	<meta property="og:site_name" content="Piano Phase" />	
+	<meta property="og:type" content="website" />	
+	<meta property="og:description" content="Steve Reich's Piano Phase performed and visualized in the browser." />
+	
+	<meta name="Description" content="Steve Reich's Piano Phase performed and visualized in the browser." />
+	
+    <script src="js/third-party/jquery.min.js"></script>
+    <script src="js/third-party/jquery.easing.min.js"></script>
+    <script src="js/third-party/two.min.js"></script>
+
+    <script src="js/min/Pianist.min.js"></script>
+    <script src="js/min/Track.min.js"></script>
+    <script src="js/min/Beacon.min.js"></script>
+    <script src="js/min/BufferLoader.min.js"></script>
+    <script src="js/min/index.min.js"></script>
+
+    <!-- <script src="js/Pianist.js"></script> -->
+    <!-- <script src="js/Track.js"></script> -->
+    <!-- <script src="js/Beacon.js"></script> -->
+    <!-- <script src="js/BufferLoader.js"></script> -->
+    <!-- <script src="js/index.js"></script> -->
+
+	<link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+		
+    <div id="overlay" class="hide">
+		<div id="overlay-inner">
+        	<p><span class="normal">This site is based on the first section from Steve Reich's 1967 piece Piano Phase. Two pianists repeat the same twelve note sequence, but one gradually speeds up. Here, the musical patterns are visualized by drawing two lines, one following each pianist.<br /><br /></span>
+	<span class="smaller">The sound is performed live in the browser with the Web Audio API, and drawn in HTML5 Canvas. <a href="http://www.chenalexander.com">chenalexander.com</a></span></p>
+		</div>
+    </div>
+
+    <div id="splash" class="hide">
+		<div id="splash-inner">
+			<img id="splash-image" src="images/z_arrow_front.jpg" width="100" height="100">
+		</div>
+    </div>
+
+	<div id="about"></div>
+	<div id="dots-layer">
+		<canvas id="canvas1"></canvas>
+	</div>
+	<div id="main-layer">
+		<canvas id="canvas0"></canvas>
+	</div>
+	
+    <div class="scripts">
+	
+      <script>
+
+      </script>
+    </div>
+  </body>
+</html>

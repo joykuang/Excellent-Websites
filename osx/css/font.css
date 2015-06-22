@@ -1,0 +1,98 @@
+.main{ font-size:16px;}
+.main .intro{ font-size:22px;}
+.main h1{ font-size:60px;}
+.page-overview .intro-headline h1.hero-headline{ font-size:78px;}
+.page-overview .intro-film, .page-overview .intro-keynote{ font-size:22px;}
+h2{font-size:48px;}
+h2 span.subheadline{font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif"; font-style:normal; padding-top:4px;}
+h3{font-size:40px;}
+p.buystrip-block-copy{font-size:14px;}
+h4{font-size:30px; line-height:1.1; font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {.page-overview .intro-film, .page-overview .intro-keynote {font-size: 18px;}}
+@media only screen and (max-width: 1024px) {.main h1 {font-size: 48px;}}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {.main h1 {font-size: 34px;}}
+@media only screen and (max-width: 1024px) {h2 {font-size: 40px;}}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {h2 {font-size: 30px;}}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {.main .intro {font-size: 18px;}}
+@media only screen and (max-width: 1024px) { h3 {font-size: 30px;}}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {h3 {font-size: 26px;}}
+@media only screen and (max-width: 1024px) { h4 {font-size: 26px;}}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) { h4 { font-size: 22px;}}
+#productheader ul li a{font-size:12px;}
+.callout h3.callout-title {font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";font-size: 30px;line-height: 1.2; letter-spacing: 1px;}
+html.oldie[lang=zh-CN] .callout h3.callout-title {font-family:'Microsoft yahei','微软雅黑',"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;}
+.section-elcapitan a.more { font-size:16px; }
+/* photos */
+.page-photos #main p{ font-size:16px; line-height:1.8;}
+.letterspacing{letter-spacing:0;}
+.page-photos a.more{font-size: 16px;}
+.page-photos h1 {font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";font-size: 60px;line-height: 1.1; letter-spacing: 1px;}
+html.oldie[lang=zh-CN] .page-photos h1 { font-family:'Microsoft yahei','微软雅黑',"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;}
+@media only screen and (max-width: 1068px) {.page-photos h1 {font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";font-size: 48px;line-height: 1.1;letter-spacing: 1px;}}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {.page-photos h1 {font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";font-size: 34px;line-height: 1.1;letter-spacing: 1px;}}
+.page-photos #main .intro {font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";font-size: 22px;}
+html.oldie[lang=zh-CN] .page-photos #main .intro {font-family:'Microsoft yahei','微软雅黑',"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {.page-photos #main .intro {font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";font-size: 18px;}}
+.page-photos .togglenav-button {font-size: 1em; letter-spacing: -1px;}
+.page-photos .gallery-edit-nav .togglenav-button {font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";font-size: 24px;letter-spacing: -1px;}
+html.oldie[lang=zh-CN] .page-photos .gallery-edit-nav .togglenav-button {font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {.page-photos .gallery-edit-nav .togglenav-button {font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";font-size: 18px;}}
+.page-photos .hero-subtitle {font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";font-size: 48px;line-height: 1.1;letter-spacing: 1px;}
+html.oldie[lang=zh-CN] .page-photos .hero-subtitle {font-family:'Microsoft yahei','微软雅黑',"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;}
+@media only screen and (max-width: 1068px) {.page-photos .hero-subtitle {font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";font-size: 40px;line-height: 1.1; letter-spacing: 1px;}}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {.page-photos .hero-subtitle {font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";font-size: 30px;line-height: 1.1; letter-spacing: 1px;}}
+.page-photos .gallery-edit-nav .accordion-description {font-size: 14px;}
+.page-photos h3 {font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";font-size: 40px;line-height: 1.2;letter-spacing: 1px;}
+html.oldie[lang=zh-CN] .page-photos h3 {font-family:'Microsoft yahei','微软雅黑',"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;}
+@media only screen and (max-width: 1068px) {.page-photos h3 {font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";font-size: 30px;line-height: 1.2; letter-spacing: 1px;}}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {.page-photos h3 {font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";font-size: 26px;line-height: 1.2; letter-spacing: 1px;}}
+.page-photos h4 {font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";font-size: 30px;line-height: 1.2; letter-spacing: 1px;}
+html.oldie[lang=zh-CN] .page-photos h4 {font-family:'Microsoft yahei','微软雅黑',"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;}
+@media only screen and (max-width: 1068px) {.page-photos h4 {font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";font-size: 26px;line-height: 1.2; letter-spacing: 1px;}}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {.page-photos h4 {font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";font-size: 22px;line-height: 1.2; letter-spacing: 1px;}}
+/*Built-in-apps share page*/
+.page-builtinapps .section-hero h1 br.show-only-for-small { display: none }
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-builtinapps .section-hero h1 br.show-only-for-small {
+        display: block
+    }
+}
+.puncuation{letter-spacing: -0.1em;}
+.page-builtinapps .section-iphoto .photos-callout .callout-heading .callout-title { margin-right: 12px; }
+.page-builtinapps .section-iphoto .photos-callout .callout-heading .violator-container { margin-top: 1px; }
+html[lang="zh-CN"] .page-photos .togglenav-button {font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";
+font-style: normal;
+font-size: 22px;}
+.section-cta h3 {
+    font-size: 30px;
+}
+@media only screen and (max-width: 1068px) {
+    .section-cta h3 {
+        font-size: 26px;
+    }
+}
+.elcapitan-preview.page-overview .section-hero .hero-subhead {
+    padding-left: 30px;
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .elcapitan-preview.page-overview .section-hero .hero-subhead {
+        padding-left: 0px;
+    }
+}
+.elcapitan-preview.page-overview .violator-compact {  
+	font-size: 15px;
+	padding-top:4px;
+	padding-left:8px;
+	padding-right:8px;
+	line-height:20px;
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .elcapitan-preview.page-overview .violator-compact {
+        font-size: 13px;
+        padding:0 11px;
+		line-height:22px;
+    }
+}
+.elcapitan-preview.page-overview .sosumi small {  
+	font-size:11px
+}

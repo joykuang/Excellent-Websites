@@ -1,0 +1,115 @@
+* { 
+	margin: 0;
+	padding: 0;
+}
+
+html, body { 
+	/* width: 100%; */
+	/* height: 100%; */
+	font-family: Helvetica, Arial, sans-serif;
+	cursor:default;
+  background: #FFFFFF;	
+}
+
+p{
+     padding: 40px;
+ }
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#main-layer {
+	position: absolute;
+  z-index: 1;
+}
+#dots-layer {
+	position: absolute;
+  z-index: 2;	
+}
+
+/* time box */
+#loader {
+	position: absolute;
+	font-weight: bold;
+	width: 150px;
+	color: #FFFFFF;
+	font-size: 11px;
+}
+
+a, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: #009999;
+}
+
+a:hover {
+  text-decoration: underline;
+	color: #009999;
+}
+
+#about a, #about a:visited, #about a:hover, #about a:active {
+	text-decoration: none;
+	color: #666666;
+}
+
+#about a:hover {
+	color: #666666;
+}
+
+/* about link box */
+#about {
+	position: absolute;
+	font-weight: bold;
+	font-size: 24px;
+  z-index: 4;	 
+}
+
+#overlay {
+     display: none;
+     position: absolute;
+     top: 0; 
+     left: 0;
+     width: 100%;
+     height: 100%;
+     color: #333;
+     background: rgba(255,255,255,0.90);  
+     z-index: 3;
+}
+#splash {
+     position: absolute;
+     top: 0; 
+     left: 0;
+     width: 100%;
+     height: 100%;
+     color: #333;
+     background: rgba(255,255,255,0.90);  
+     z-index: 5;
+}
+#overlay.show, #splash.show, #about.show {
+   display: inline-block;
+}
+#overlay.hide, #splash.hide, #about.hide {
+   display: none;
+}
+#overlay-inner .smaller {
+  font-size: 11px;
+  line-height: 18px;
+  color: #999999;
+}
+
+#overlay-inner .normal {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+#splash-inner {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+
+#overlay-inner, #splash-inner {
+  position: absolute;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Excellent-Websites",
+  "title": "Excellent Websites",
+  "description": "Excellent websites for presenting and studying!",
+  "version": "1.0.0",
+  "homepage": "http://www.yueruanstudio.com",
+  "author": {
+    "name": "Joy Kuang",
+    "email": "q-cute@163.com",
+    "url": "http://joykuang.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joykuang/Excellent-Websites"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/joykuang/Excellent-Websites/blob/master/LICENSE.md"
+    }
+  ],
+  "keywords": ["websites", "design", "front-end"]
+}

@@ -1,0 +1,966 @@
+.page-overview .main {
+    overflow:visible
+}
+.page-overview .localnav {
+    border-color:#666;
+    position:relative;
+    z-index:2
+}
+.page-overview .localnav .localnav-title>a {
+    cursor:default
+}
+.page-overview .section {
+    overflow:hidden
+}
+.page-overview .section-content p .more {
+    display:block
+}
+.page-overview .section-hero {
+    text-align:center;
+    color:#fff;
+    overflow:visible;
+    position:relative;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-122px
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-hero {
+        margin-top:-144px
+    }
+}
+.page-overview .section-hero .section-content {
+    padding-top:172px;
+    padding-bottom:100px;
+    position:relative;
+    z-index:1
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-hero .section-content {
+        padding-top:167px;
+        padding-bottom:44px
+    }
+}
+.page-overview .section-hero .hero-icon {
+    background-repeat:no-repeat;
+    background-size:264px 264px;
+    height:264px;
+    width:264px;
+    background-image:url("../img/overview/hero_icon_large.png");
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-overview .section-hero .hero-icon {
+        background-image:url("../img/overview/hero_icon_large_2x.png")
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-hero .hero-icon {
+        background-size:84px 84px;
+        height:84px;
+        width:84px;
+        background-image:url("../img/overview/hero_icon_small.png")
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-overview .section-hero .hero-icon {
+        background-image:url("../img/overview/hero_icon_small_2x.png")
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-hero .hero-icon {
+        margin-bottom:16px
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-hero .hero-icon {
+        margin-bottom:12px
+    }
+}
+.page-overview .section-hero h1 {
+    margin-bottom:10px;
+    font-size:100px
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-hero h1 {
+        margin-bottom:18px;
+        font-size:72px
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-hero h1 {
+        margin-bottom:0;
+        font-size:48px
+    }
+}
+.page-overview .section-hero h2 {
+    margin-bottom:18px
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-hero h2 {
+        margin-bottom:18px
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-hero h2 {
+        margin-bottom:10px
+    }
+}
+.page-overview .section-hero .intro {
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:83.3333%;
+    color:inherit;
+    margin-bottom:64px;
+    text-align:center
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-hero .intro {
+        max-width:66.6667%
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-hero .intro {
+        max-width:100%
+    }
+}
+html.oldie .page-overview .section-hero .intro {
+    color:#fff
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-hero .intro {
+        max-width:90%
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-hero .intro {
+        margin-bottom:36px
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-hero .intro br {
+        display:none
+    }
+}
+.page-overview .section-hero .cta {
+    margin-bottom:0
+}
+.page-overview .section-hero .cta .button {
+    line-height:32px
+}
+.page-overview .background {
+    background-repeat:no-repeat;
+    background-size:1440px 1200px;
+    background-image:url("../img/overview/hero_large.jpg");
+    background-position:center top;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    overflow:hidden
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-overview .background {
+        background-image:url("../img/overview/hero_large_2x.jpg")
+    }
+}
+@media only screen and (min-width: 1442px) {
+    .page-overview .background {
+        background-size:2560px 1200px;
+        background-image:url("../img/overview/hero_xlarge.jpg")
+    }
+}
+@media only screen and (min-width: 1442px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1442px) and (min-resolution: 144dpi), only screen and (min-width: 1442px) and (min-resolution: 144dppx) {
+    .page-overview .background {
+        background-image:url("../img/overview/hero_xlarge_2x.jpg")
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .background {
+        background-size:1024px 912px;
+        background-image:url("../img/overview/hero_medium.jpg")
+    }
+}
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-overview .background {
+        background-image:url("../img/overview/hero_medium_2x.jpg")
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .background {
+        background-size:768px 638px;
+        background-image:url("../img/overview/hero_small.jpg")
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-overview .background {
+        background-image:url("../img/overview/hero_small_2x.jpg")
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .background {
+        background-size:cover
+    }
+}
+.page-overview .background .clouds {
+    position:absolute;
+    top:0;
+    width:3460px;
+    height:1200px;
+    background-position:0 0;
+    opacity:0;
+    -webkit-transition-property:opactiy;
+    transition-property:opactiy;
+    -webkit-transition-duration:5s;
+    transition-duration:5s
+}
+.page-overview .background .clouds.show-clouds {
+    opacity:1;
+    -webkit-transition-property:opactiy;
+    transition-property:opactiy;
+    -webkit-transition-duration:5s;
+    transition-duration:5s;
+    background-image:url("../img/hero_clouds.png");
+    -webkit-animation:cloudAnim 160s linear infinite;
+    animation:cloudAnim 160s linear infinite
+}
+html.oldie .page-overview .background {
+    overflow:visible
+}
+.page-overview .section-design {
+    text-align:center
+}
+.page-overview .section-design p {
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:83.3333%;
+    text-align:center
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-design p {
+        max-width:66.6667%
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-design p {
+        max-width:100%
+    }
+}
+.page-overview .section-design .design-hero-image {
+    background-repeat:no-repeat;
+    background-size:980px 568px;
+    height:568px;
+    width:980px;
+    margin-left:0px;
+    background-image:url("../img/overview/design_large.png");
+    margin-top:46px
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-overview .section-design .design-hero-image {
+        background-image:url("../img/overview/design_large_2x.png")
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-design .design-hero-image {
+        background-size:700px 407px;
+        height:407px;
+        width:700px;
+        margin-left:-1px;
+        background-image:url("../img/overview/design_medium.png")
+    }
+}
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-overview .section-design .design-hero-image {
+        background-image:url("../img/overview/design_medium_2x.png")
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-design .design-hero-image {
+        background-size:288px 168px;
+        height:168px;
+        width:111.1111%;
+        margin-left:-5.5556%;
+        margin-right:-5.5556%;
+        background-position:center top;
+        background-image:url("../img/overview/design_small.png")
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-overview .section-design .design-hero-image {
+        background-image:url("../img/overview/design_small_2x.png")
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-design .design-hero-image {
+        margin-top:46px
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-design .design-hero-image {
+        margin-top:23px
+    }
+}
+.page-overview .section-apps {
+    text-align:center
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-apps .section-content.include-photos {
+        padding-bottom:18px
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-apps .section-content.include-photos {
+        padding-bottom:40px
+    }
+}
+.page-overview .section-apps p {
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:83.3333%;
+    text-align:center
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-apps p {
+        max-width:66.6667%
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-apps p {
+        max-width:100%
+    }
+}
+.page-overview .section-apps .apps-hero-image {
+    background-repeat:no-repeat;
+    background-size:822px 560px;
+    height:560px;
+    width:822px;
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url("../img/overview/apps_large.png");
+    margin-top:46px
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-overview .section-apps .apps-hero-image {
+        background-image:url("../img/overview/apps_large_2x.png")
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-apps .apps-hero-image {
+        background-size:762px 520px;
+        height:520px;
+        width:762px;
+        margin-left:-32px;
+        background-image:url("../img/overview/apps_medium.png")
+    }
+}
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-overview .section-apps .apps-hero-image {
+        background-image:url("../img/overview/apps_medium_2x.png")
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-apps .apps-hero-image {
+        background-size:288px 196px;
+        height:196px;
+        width:111.1111%;
+        margin-left:-5.5556%;
+        margin-right:-5.5556%;
+        background-position:center top;
+        background-image:url("../img/overview/apps_small.png")
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-overview .section-apps .apps-hero-image {
+        background-image:url("../img/overview/apps_small_2x.png")
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-apps .apps-hero-image {
+        margin-top:46px
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-apps .apps-hero-image {
+        margin-top:23px
+    }
+}
+.page-overview .section-continuity {
+    text-align:center
+}
+.page-overview .section-continuity .section-content {
+    padding-bottom:0
+}
+.page-overview .section-continuity p {
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:83.3333%;
+    text-align:center
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-continuity p {
+        max-width:66.6667%
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-continuity p {
+        max-width:100%
+    }
+}
+.page-overview .section-continuity .continuity-image {
+    background-repeat:no-repeat;
+    background-size:1762px 458px;
+    height:458px;
+    width:1762px;
+    background-image:url("../img/overview/mac_ios_large.png");
+    float:right;
+    display:block;
+    margin-top:46px
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-overview .section-continuity .continuity-image {
+        background-image:url("../img/overview/mac_ios_large_2x.png")
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-continuity .continuity-image {
+        background-size:860px 410px;
+        height:410px;
+        width:860px;
+        background-image:url("../img/overview/mac_ios_medium.png")
+    }
+}
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-overview .section-continuity .continuity-image {
+        background-image:url("../img/overview/mac_ios_medium_2x.png")
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-continuity .continuity-image {
+        background-size:542px 168px;
+        height:168px;
+        width:542px;
+        background-image:url("../img/overview/mac_ios_small.png")
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-overview .section-continuity .continuity-image {
+        background-image:url("../img/overview/mac_ios_small_2x.png")
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-continuity .continuity-image {
+        margin-top:46px
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-continuity .continuity-image {
+        margin-top:23px
+    }
+}
+html.oldie .page-overview .section-continuity .continuity-image {
+    margin-left:-782px
+}
+.page-overview .section-developer p {
+    margin-bottom:12px
+}
+.page-overview .section-developer .section-content {
+    padding-top:0
+}
+.page-overview .section-developer .section-content.include-photos {
+    padding-bottom:70px
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-developer .section-content.include-photos {
+        padding-bottom:68px
+    }
+    .page-overview .section-developer .section-content.include-photos h4 {
+        font-size:32px;
+        padding-left:10px;
+        padding-right:10px
+    }
+    .page-overview .section-developer .section-content.include-photos p {
+        margin-bottom:8px
+    }
+    .page-overview .section-developer .section-content.include-photos .buckets {
+        padding-top:10px;
+        border-top:none
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .section-content.include-photos {
+        padding-bottom:59px
+    }
+    .page-overview .section-developer .section-content.include-photos h4 {
+        font-size:26px;
+        padding-left:25px;
+        padding-right:25px
+    }
+    .page-overview .section-developer .section-content.include-photos p {
+        margin-bottom:0px
+    }
+    .page-overview .section-developer .section-content.include-photos .buckets {
+        border-top:1px solid #cccccc;
+        padding-top:21px
+    }
+}
+.page-overview .section-developer .features-image {
+    background-repeat:no-repeat;
+    background-size:108px 108px;
+    height:108px;
+    width:108px;
+    background-image:url("../img/overview/features_osx_large.png")
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-overview .section-developer .features-image {
+        background-image:url("../img/overview/features_osx_large_2x.png")
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .features-image {
+        background-size:81px 81px;
+        height:81px;
+        width:81px;
+        background-image:url("../img/overview/features_osx_small.png")
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-overview .section-developer .features-image {
+        background-image:url("../img/overview/features_osx_small_2x.png")
+    }
+}
+.page-overview .section-developer .swift-image {
+    background-repeat:no-repeat;
+    background-size:102px 102px;
+    height:102px;
+    width:102px;
+    background-image:url("../img/overview/intro_swift_large.png")
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-overview .section-developer .swift-image {
+        background-image:url("../img/overview/intro_swift_large_2x.png")
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-developer .swift-image {
+        background-size:96px 96px;
+        height:96px;
+        width:96px;
+        background-image:url("../img/overview/intro_swift_medium.png")
+    }
+}
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-overview .section-developer .swift-image {
+        background-image:url("../img/overview/intro_swift_medium_2x.png")
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .swift-image {
+        background-size:72px 72px;
+        height:72px;
+        width:72px;
+        background-image:url("../img/overview/intro_swift_small.png")
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-overview .section-developer .swift-image {
+        background-image:url("../img/overview/intro_swift_small_2x.png")
+    }
+}
+.page-overview .section-developer .developers-image {
+    background-repeat:no-repeat;
+    background-size:115px 108px;
+    height:108px;
+    width:115px;
+    background-image:url("../img/overview/tools_xcode_large.png")
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-overview .section-developer .developers-image {
+        background-image:url("../img/overview/tools_xcode_large_2x.png")
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-developer .developers-image {
+        background-size:115px 108px;
+        height:108px;
+        width:115px;
+        background-image:url("../img/overview/tools_xcode_medium.png")
+    }
+}
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-overview .section-developer .developers-image {
+        background-image:url("../img/overview/tools_xcode_medium_2x.png")
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .developers-image {
+        background-size:83px 77px;
+        height:77px;
+        width:83px;
+        background-image:url("../img/overview/tools_xcode_small.png")
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-overview .section-developer .developers-image {
+        background-image:url("../img/overview/tools_xcode_small_2x.png")
+    }
+}
+.page-overview .section-developer .photos-image {
+    background-repeat:no-repeat;
+    background-size:113px 113px;
+    height:113px;
+    width:113px;
+    background-image:url("../img/overview/photos_icon_large.jpg")
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-overview .section-developer .photos-image {
+        background-image:url("../img/overview/photos_icon_large_2x.jpg")
+    }
+}
+.page-overview .section-developer .buckets {
+    border-top:1px solid #cccccc;
+    padding-top:50px
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .buckets {
+        padding-top:0
+    }
+}
+.page-overview .section-developer .bucket {
+    text-align:center;
+    margin-bottom:0;
+    padding:20px 20px 0 0
+}
+.page-overview .section-developer .bucket.new-padding {
+    padding:20px 18px 0
+}
+.page-overview .section-developer .bucket.new-padding h4 {
+    margin-bottom:9px
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .bucket.new-padding {
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:24px;
+        padding-bottom:20px
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-developer .bucket {
+        padding-left:15px;
+        padding-right:15px
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .bucket {
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:24px;
+        padding-bottom:20px
+    }
+}
+.page-overview .section-developer .bucket h3 {
+    font-size:32px;
+    line-height:1.125;
+    font-weight:200
+}
+html.oldie .page-overview .section-developer .bucket h3 {
+    font-weight:normal;
+    font-family:"Myriad Set Pro 200", "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"
+}
+html.oldie[lang=ja-JP] .page-overview .section-developer .bucket h3 {
+    font-family:"Apple TP 200", "Apple TP", "Helvetica Neue", "Helvetica", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Arial", "Verdana", "sans-serif"
+}
+html.oldie[lang=zh-CN] .page-overview .section-developer .bucket h3 {
+    font-family:"PingHei 200", "PingHei", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"
+}
+html.oldie[lang=zh-TW] .page-overview .section-developer .bucket h3 {
+    font-family:"MHei 200", "MHei", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"
+}
+html.oldie[lang=zh-HK] .page-overview .section-developer .bucket h3 {
+    font-family:"MHei 200", "MHei", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"
+}
+html.oldie[lang=th-TH] .page-overview .section-developer .bucket h3 {
+    font-family:"Sukhumvit Set 200", "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"
+}
+html.oldie[lang=ko-KR] .page-overview .section-developer .bucket h3 {
+    font-family:"Yoon Gothic 200", "Yoon Gothic", "Helvetica Neue", "Helvetica", "Dotum", "Arial", "Verdana", "sans-serif"
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-developer .bucket h3 {
+        font-size:28px;
+        line-height:1.1429;
+        font-weight:200
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .bucket h3 {
+        font-size:24px;
+        line-height:1.1667;
+        font-weight:200
+    }
+}
+.page-overview .section-developer .bucket .heading-icon {
+    margin-top:20px;
+    margin-bottom:20px
+}
+.page-overview .section-developer .bucket .heading-icon.icon-padding {
+    margin-bottom:35px
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-developer .bucket .heading-icon.icon-padding {
+        margin-top:35px;
+        margin-bottom:31px
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .bucket .heading-icon.icon-padding {
+        margin-top:24px;
+        margin-bottom:22px
+    }
+}
+.page-overview .section-developer .bucket-features.new-padding h4 {
+    padding-left:12px;
+    padding-right:12px
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-developer .bucket-features.new-padding {
+        border-bottom:1px solid #cccccc;
+        padding-left:70px;
+        padding-right:70px;
+        padding-bottom:60px;
+        padding-top:0
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .bucket-features.new-padding {
+        border-bottom:none;
+        padding-top:9px;
+        padding-left:10px;
+        padding-right:10px;
+        padding-bottom:20px
+    }
+}
+.page-overview .section-developer .bucket-features.new-padding .heading-icon {
+    margin-bottom:40px
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .bucket-features.new-padding .heading-icon {
+        margin-top:12px;
+        margin-bottom:31px
+    }
+}
+.page-overview .section-developer .bucket-features .more {
+    white-space:normal;
+    width:293px;
+    margin-left:auto;
+    margin-right:auto
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .bucket-features .more {
+        width:auto
+    }
+}
+.page-overview .section-developer .bucket-features .more br {
+    display:none
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .bucket-features .more br {
+        display:block
+    }
+}
+.page-overview .section-developer .bucket-developers.no-border {
+    border-left:none
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-developer .bucket-developers.no-border.right-border {
+        border-right:1px solid #cccccc;
+        margin-right:-1px
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .bucket-developers.no-border.right-border {
+        border-right:none;
+        margin-right:0
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .bucket-developers {
+        border-left:none;
+        border-right:none;
+        border-top:1px solid #cccccc
+    }
+    .page-overview .section-developer .bucket-developers.no-border {
+        border-top:none;
+        padding-top:31px
+    }
+}
+.page-overview .section-developer .bucket-developers.new-padding .heading-icon {
+    margin-top:24px;
+    margin-bottom:36px
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-developer .bucket-developers.new-padding .heading-icon {
+        margin-top:35px
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .bucket-developers.new-padding .heading-icon {
+        margin-top:24px;
+        margin-bottom:31px
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-developer .bucket-photos {
+        border-left:1px solid #cccccc
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .bucket-photos {
+        border-left:none
+    }
+}
+.page-overview .section-developer .bucket-photos.all-new h4 {
+    margin-left:auto;
+    margin-right:auto;
+    width:240px
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .bucket-photos.all-new h4 {
+        width:200px
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-developer .bucket-photos .heading-icon.icon-padding {
+        margin-bottom:31px
+    }
+}
+.page-overview .section-developer.single-promo .column.first {
+    display:none
+}
+.page-overview .section-developer.single-promo .column.last {
+    width:100%
+}
+.page-overview .section-developer.single-promo .column.last p {
+    padding:0 50px
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-developer.single-promo .column.last p {
+        padding:0
+    }
+}
+.page-overview .section-developer.single-promo .column.last .bucket {
+    border:none
+}
+.page-overview .section-swift {
+    background-color:#fafafa
+}
+.page-overview .section-swift .section-content {
+    padding:60px 0
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-swift .section-content {
+        width:90%;
+        padding-top:45px;
+        padding-bottom:45px
+    }
+}
+.page-overview .section-swift .row {
+    padding:0 145px
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-swift .row {
+        padding:0 10px
+    }
+}
+.page-overview .section-swift .row .image-swift-icon {
+    background-repeat:no-repeat;
+    background-size:102px 102px;
+    height:102px;
+    width:102px;
+    background-image:url("../img/overview/intro_swift_large.png")
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-overview .section-swift .row .image-swift-icon {
+        background-image:url("../img/overview/intro_swift_large_2x.png")
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-swift .row .image-swift-icon {
+        background-size:96px 96px;
+        height:96px;
+        width:96px;
+        background-image:url("../img/overview/intro_swift_medium.png")
+    }
+}
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-overview .section-swift .row .image-swift-icon {
+        background-image:url("../img/overview/intro_swift_medium_2x.png")
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-swift .row .image-swift-icon {
+        background-size:72px 72px;
+        height:72px;
+        width:72px;
+        background-image:url("../img/overview/intro_swift_small.png")
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-overview .section-swift .row .image-swift-icon {
+        background-image:url("../img/overview/intro_swift_small_2x.png")
+    }
+}
+.page-overview .section-swift .row .column.first {
+    width:102px;
+    margin-right:50px
+}
+@media only screen and (max-width: 1024px) {
+    .page-overview .section-swift .row .column.first {
+        width:96px;
+        margin-right:45px
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-swift .row .column.first {
+        width:72px;
+        float:none;
+        margin:0 auto 25px
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-swift .row .column.last h3, .page-overview .section-swift .row .column.last p, .page-overview .section-swift .row .column.last a {
+        text-align:center
+    }
+}
+@-webkit-keyframes cloudAnim {
+    from {
+        -webkit-transform:translateX(0) translateZ(0);
+        transform:translateX(0) translateZ(0)
+    }
+    to {
+        -webkit-transform:translateX(-50%) translateZ(0);
+        transform:translateX(-50%) translateZ(0)
+    }
+}
+@keyframes cloudAnim {
+    from {
+        -webkit-transform:translateX(0) translateZ(0);
+        -ms-transform:translateX(0) translateZ(0);
+        transform:translateX(0) translateZ(0)
+    }
+    to {
+        -webkit-transform:translateX(-50%) translateZ(0);
+        -ms-transform:translateX(-50%) translateZ(0);
+        transform:translateX(-50%) translateZ(0)
+    }
+}
