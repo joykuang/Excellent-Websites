@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>Material Design 配色方案</title>
+        
+        <style>
+        /* Reset */
+        html{overflow-y:scroll;color:#000;background:#fff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body,html{font-family:sans-serif}html *{outline:0;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:transparent}article,aside,blockquote,body,button,code,dd,details,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0}input,select,textarea{font-size:100%}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}abbr,acronym{border:0;font-variant:normal}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:500}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:500}q:after,q:before{content:''}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}a:hover{text-decoration:underline}a,ins{text-decoration:none}
+        
+        
+        * { margin: 0; padding: 0; border: 0; box-sizing: border-box;}
+        * { font-family: 'RobotoDraft', Roboto, 'Microsoft Yahei', 'Microsoft JhengHei', sans-serif; } 
+        li { display: block; list-style: none; }
+        h1 { font-size: 32px; padding-bottom: 8px; display: block; line-height: 1.6; height: 1.6em;}
+        h3 { font-size: 20px; display: block; height: 2.4em;}
+        
+        .viewport { width: 100%; overflow: hidden; padding: 8px; }
+        .container { width: 100%; margin: 16px auto 0 auto;  }
+        .wrap { margin-left: -8px; }
+        .color-box { padding: 0 0 8px 8px; float: left; }
+        .color-box > ul { width: 100%; }
+        .color-box > ul > li { width: 100%; line-height: 1.6; padding: .8em; font-weight: bold; }
+        
+        @media (min-width: 1600px) {
+            .color-box { width: 10%; }
+        }  
+        
+        @media (min-width: 1366px) and (max-width: 1599px) {
+            .color-box { width: 12.5%; }
+        }
+        
+        @media (min-width: 1024px) and (max-width: 1365px) {
+            .color-box { width: 16.666%; }
+        }
+        
+        @media (min-width: 720px) and (max-width: 1023px) {
+            .color-box { width: 25%; }
+        }
+        
+        @media (min-width: 480px) and (max-width: 719px) {
+            .color-box { width: 33.333%; }
+        }
+        
+        @media (max-width: 480px) {
+            h1 { font-size: 28px; }
+            .color-box { width: 50%; }
+        }
+        
+        .float-right { float: right; }
+        .text-white { color: #fff; }
+        .text-black { color: #000; }
+        .bg-white { background-color: #fff; }
+        .bg-black { background-color: #000; }
+        .clearfix { clear: both !important; }
+        
+        </style>
+    </head>
+
+    <body>
+        <div class="viewport">
+            <h1>Material Design 配色方案</h1>
+            <div class="container">
+                <div class="wrap">
+                    <!--div class="color-box">
+                        <ul>
+                            <li class="bg-black text-white"><h3>Black</h3><span>500</span><span class="float-right">#000</span></li>
+                            <li class="bg-black text-white"><span>500</span><span class="float-right">#000</span></li>
+                        </ul>
+                    </div-->
+                    
+                </div>
+            </div>
+        </div>
+        
+        <script src="bower_components/zepto/zepto.min.js"></script>
+        <script>
+            $(function(){
+                var url = './color.json', html = '', html2 = '';
+                $.getJSON(url, function(data, status, xhr){ 
+                    if (status == 'success') {
+                        $.each(data, function(index, item){
+                            if (item.name != undefined) {
+                                console.log('%c' + item.name + "\r\n[500] #"+item[500]+'\r\n','color: #'+item[500]);
+                                html = '<div class="color-box"><ul><li class="text-white" style="background-color: #'+item[500]+';"><h3>'+item.name+'</h3><span>500</span><span class="float-right">#'+item[500]+'</span></li>';
+                                html += '<li class="text-black" style="background-color: #'+item[50]+';"><span>50</span><span class="float-right">#'+item[50]+'</span></li>';
+                                for (var i=1; i<=9; i++) {
+                                    html += '<li class="text-black" style="background-color: #'+item[i*100]+';"><span>'+i*100+'</span><span class="float-right">#'+item[i*100]+'</span></li>';
+                                    console.log('%c['+i*100+'] #'+item[i*100],'color: #'+item[i*100]);
+                                    if (item['A'+i*100] != undefined) {
+                                        html2 += '<li class="text-black" style="background-color: #'+item['A'+i*100]+';"><span>'+'A'+i*100+'</span><span class="float-right">#'+item['A'+i*100]+'</span></li>';
+                                        //console.log('%c['+'A'+i*100+'] #'+item['A'+i*100],'color: #'+item['A'+i*100]);
+                                    }
+                                }
+                                html += html2;
+                                html2 = ''
+                                $('.container > .wrap').append(html+'</ul></div>');
+                            } else {
+                                html2 += '<div class="color-box"><ul><li class="text-white" style="background-color: #'+item['Black']+';"><h3>Black</h3><span>&nbsp;</span><span class="float-right">#'+item['Black']+'</span></li></ul></div>';
+                                html2 += '<div class="color-box"><ul><li class="text-black" style="background-color: #'+item['White']+';"><h3>White</h3><span>&nbsp;</span><span class="float-right">#'+item['White']+'</span></li></ul></div>';
+                                
+                                $('.container > .wrap').append(html2);
+                            }
+                            
+                            
+                        });
+                        $('.container > .wrap').append('<div class="clearfix"></div>');
+                    } else {
+                        //Some Error Here
+                    }
+                })
+            });
+        </script>
+    </body>
+</html>

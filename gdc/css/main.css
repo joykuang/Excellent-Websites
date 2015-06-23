@@ -1,0 +1,846 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body{
+	padding:0;
+	margin:0;
+	background:#ed1c24;
+    height:100%;
+    font-family: 'GibsonLightRegular';
+    font-weight: normal;
+	font-style: normal;
+	color: #ffffff;
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+	-webkit-text-size-adjust: 100%;
+	}
+
+html{
+	height:100%;
+	   }
+
+
+/************* Font Declaration *************/
+
+@font-face {
+    font-family: 'GibsonLightRegular';
+    src: url('../fonts/Gibson-Light-webfont.eot');
+    src: url('../fonts/Gibson-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gibson-Light-webfont.woff') format('woff'),
+         url('../fonts/Gibson-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Gibson-Light-webfont.svg#GibsonLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GibsonLightBold';
+    src: url('../fonts/Gibson-SemiBold-webfont.eot');
+    src: url('../fonts/Gibson-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gibson-SemiBold-webfont.woff') format('woff'),
+         url('../fonts/Gibson-SemiBold-webfont.ttf') format('truetype'),
+         url('../fonts/Gibson-SemiBold-webfont.svg#GibsonLightBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GibsonBold';
+    src: url('../fonts/Gibson-Bold-webfont.eot');
+    src: url('../fonts/Gibson-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gibson-Bold-webfont.woff') format('woff'),
+         url('../fonts/Gibson-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Gibson-Bold-webfont.svg#GibsonBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GibsonRegular';
+    src: url('../fonts/Gibson-Regular-webfont.eot');
+    src: url('../fonts/Gibson-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gibson-Regular-webfont.woff') format('woff'),
+         url('../fonts/Gibson-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Gibson-Regular-webfont.svg#GibsonRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#mainnav{
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1000;
+	width: 60px;
+	text-align: center;
+	background-color: #f03e45;
+	background-color: rgba(255,255,255,0.15);
+	height: 100%;
+    opacity: 0;
+    transition: all 1s ease-in;
+    visibility: hidden;
+}
+#stephanie-detail {
+	opacity: 0;
+    transition: all 1s ease-in;
+}
+.wrap-left,
+.wrap-right,
+#mainnav ul,
+#mainnav li {
+        transition: all 1s ease-in;
+}
+
+#mainnav a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#mainnav a:hover{
+	opacity: 0.7;
+}
+
+#mainnav ul{
+    top: 50%;
+	display: block;
+	position: absolute;
+	margin: 0;
+	margin-top: -220px;
+	padding: 0;
+	text-align: center;
+	width: 60px;
+	height: 440px;
+}
+
+#mainnav li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 160%;
+	font-family: 'GibsonBold';
+	font-weight: normal;
+    font-style: normal;
+    text-align: center;
+	
+}
+#mainnav li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+    outline: none;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+   font-size: 800%;
+   font-family: 'GibsonLightBold';
+   font-weight: normal;
+   font-style: normal;
+   text-transform: uppercase;
+   margin: 0;
+   margin-bottom: 30px;
+   padding: 0;
+	
+}
+
+h2{
+   font-size: 500%;
+   line-height: 56px;
+   font-family: 'GibsonLightBold';
+   font-weight: normal;
+   font-style: normal;
+   padding: 0;
+   max-width: 64%;
+   text-align: center;
+   margin: 0 auto;
+}
+
+h3{
+	font-family: 'GibsonLightBold';
+	font-weight: normal;
+    font-style: normal;
+    font-size: 330%;
+    color: #000000;
+    line-height: 1.18181818;
+    margin-bottom: 5px;
+}
+
+.bold-wrap{
+	font-family: 'GibsonLightBold';
+	font-weight: normal;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.noback{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #ed1c24;
+}
+
+.noback-content{
+	width: 100%;
+	position: relative;
+	background-color: #ed1c24
+}
+
+.content {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.content p{
+	font-size: 240%;
+	line-height: 1.25;
+}
+
+
+.content-wrap{	
+	position: absolute;
+	top: 25%;
+    	padding-bottom: 200px;
+
+}
+.noback .content-wrap{
+	margin-top: 0;
+}
+.content-wrap.right-copy {
+	right: 120px;
+	max-width: 40%;
+}
+
+.content-wrap.left-copy{
+	left: 60px;
+	max-width: 45%;
+}
+
+.person-detail {
+	width: 100%;
+	height: 78px;
+	position: absolute;
+	bottom: 0;
+}
+    .wrap-left,
+    .wrap-right {
+	    margin-right: 60px;
+	    background-color: rgba(0,0,0,0.3);
+	    height: 78px;
+    }
+    .wrap-right{ text-align: right; }
+
+
+.content .title {
+ 	font-size: 150%;
+	padding: 0;
+	margin: 0;
+ 	margin-top: 2px;
+	text-transform: uppercase;
+	font-family: 'GibsonRegular';
+	font-weight: normal;
+    font-style: normal;
+
+}
+    .wrap-left .title{ margin-left: 130px; }
+    .wrap-right .title{ margin-right: 130px; }
+
+.content .name {
+ 	font-size: 250%;
+	padding: 0;
+	margin: 0;
+ 	padding-top: 11px;
+
+    font-family: 'Microsoft JhengHei';
+}
+    .wrap-left .name{ margin-left: 60px; }
+    .wrap-right .name{ margin-right: 60px; }
+
+.cgd-bold{
+	font-family: 'GibsonLightBold';
+	font-weight: normal;
+    font-style: normal;
+	text-transform: uppercase;
+	font-size: 87.5%;
+	
+}
+
+.noback .opening{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 40%;
+}
+
+.gdc-logo{
+	width: 100px;
+	height: 75px;
+}
+
+.gdc-logo-wrap{
+	margin:0 ;
+	width: 100%;
+}
+
+
+.arrow-wrap{
+    text-align: center;
+	position: fixed;
+	bottom: 60px;
+	width: 100%
+}
+
+.gdc-arrow{
+	width: 100px;
+	height: 86px;
+}
+
+.contact-link{
+	text-transform: uppercase;
+}
+
+
+.back-1 {	background-image: url(../img/gdc-stephanie-1.jpg);}
+.back-2 {	background-image: url(../img/gdc-robert-2.jpg);}
+.back-3 {	background-image: url(../img/gdc-kevin-4.jpg);}
+.back-4 {	background-image: url(../img/gdc-frank-3.jpg);}
+.back-5 {	background-image: url(../img/gdc-ian-5.jpg);}
+.back-6 {	background-image: url(../img/gdc-ron-6.jpg);}
+.back-7 {	background-image: url(../img/gdc-dave-7.jpg);}
+.back-8 {	background-image: url(../img/gdc-silvie-8.jpg);}
+.back-9 {	background-image: url(../img/gdc-paul-andrea-9.jpg);}
+
+#stephanie-hide,
+#stephanie-title,
+#robert-hide,
+#robert-title,
+#frank-hide,
+#frank-title,
+#frank-hide-sequel,
+#kevin-hide,
+#kevin-title,
+#kevin-hide-sequel,
+#ian-hide,
+#ian-title,
+#ian-hide-sequel,
+#ron-hide,
+#ron-title,
+#ron-hide-sequel,
+#dave-hide,
+#dave-title,
+#dave-hide-sequel,
+#silvie-hide,
+#silvie-title,
+#silvie-hide-sequel,
+#paul-andrea-hide,
+#paul-andrea-title,
+#paul-andrea-hide-sequel{ 
+   opacity: 0;
+   transition: all 0.8s ease-out;
+}
+
+.noback-content p{
+	font-size: 240%;
+	line-height: 1.25;
+}
+
+.noback-content {
+	max-width: 1080px;
+	margin: 0 auto;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	position: relative;
+}
+
+.noback-content .noback-content-wrap{
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
+.bottom-strip{
+	width: 100%;
+	height: 247px;
+	background: url(../img/gdc-strip.jpg) center no-repeat;
+	margin: 0 auto;
+}
+
+.gdc-arrow-contact{
+	width: 40px;
+	height: 48px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.contact-link a{
+    color: #ffffff;
+	text-decoration: none;
+	font-family: 'GibsonLightBold';
+	font-weight: normal;
+    font-style: normal;
+}
+
+.contact-link a:hover{
+   opacity: 0.7;
+}
+
+.gdcmb-logo{
+	width: 422px;
+	max-width: 90%;
+	margin: 0 auto;
+	height: auto;
+}
+
+.gdcmb-logo-wrap{
+    text-align: center;
+    margin-bottom: 50px;	
+}
+
+.addthis_toolbox{
+	margin: 0 auto;
+	text-align: center;
+	width: 200px;
+	margin-bottom: 200px;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.cf {
+    *zoom: 1;
+}
+
+
+@media screen and (max-width: 1200px) { 
+.bottom-strip{
+	background: url(../img/gdc-strip.jpg) 20% no-repeat;
+}
+}
+
+@media screen and (max-width: 1024px) { 
+
+.content-wrap.right-copy {
+	right: 80px;
+	max-width: 55%;
+}
+
+.content-wrap.left-copy{
+	left: 80px;
+	max-width: 55%;
+}
+.content-wrap {
+    top: 15%;
+}
+.content {
+	background-attachment: scroll;
+}
+}
+
+
+@media screen and (max-width: 800px) { 
+.noback-content  {
+    padding: 120px 0;
+
+}
+.content-wrap {
+    top: 10%;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 640px) { 
+h1 {
+    font-size: 500%;
+}
+.gdc-logo{
+	width: 75px;
+	height: 56px;
+}
+#mainnav ul{
+	margin-top: -160px;
+	height: 335px;
+}
+
+#mainnav li a {
+	height: 35px;
+	line-height: 35px;
+}
+#mainnav,
+#mainnav ul {
+    width: 35px;
+}
+.wrap-left,
+.wrap-right {
+    margin-right: 35px;
+}
+
+.content {
+	min-height: 100%;
+	height: auto ;
+}
+
+.content-wrap.right-copy {
+	left: 100px;
+	right: 80px;
+	max-width:none;
+}
+
+.content-wrap.left-copy{
+	left: 40px;
+	right: 160px;
+	max-width: none;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background:#ed1c24;
+    opacity: 0.5;
+}
+.noback-content  {
+    padding: 70px 0;
+
+}
+.noback-content .noback-content-wrap {
+    padding: 0 20px;
+}
+.noback-content-wrap p,
+.noback-content-wrap h3
+{
+  	position: relative;
+	top: auto;
+	left: auto;
+	right: auto;
+	
+	width: auto;
+	margin-right: 55px;
+	text-align: left !important;
+}
+.gdcmb-logo-wrap {
+    margin-right: 40px;
+}
+}
+
+@media screen and (max-width: 480px) { 
+h1{
+   font-size: 430%;
+   margin-bottom: 10px;
+}
+h2 {
+    font-size: 300%;
+}
+.arrow-wrap {
+    bottom: 30px;
+}
+.noback .opening {
+    top: 35%;
+}
+.noback-content  {
+    padding: 40px 0;
+
+}
+.addthis_toolbox {
+    margin-bottom: 100px !important;
+}
+#stephanie-hide,
+#stephanie-title,
+#robert-hide,
+#robert-title,
+#frank-hide,
+#frank-title,
+#frank-hide-sequel,
+#kevin-hide,
+#kevin-title,
+#kevin-hide-sequel,
+#ian-hide,
+#ian-title,
+#ian-hide-sequel,
+#ron-hide,
+#ron-title,
+#ron-hide-sequel,
+#dave-hide,
+#dave-title,
+#dave-hide-sequel,
+#silvie-hide,
+#silvie-title,
+#silvie-hide-sequel,
+#paul-andrea-hide,
+#paul-andrea-title,
+#paul-andrea-hide-sequel{ 
+    opacity: 1 !important;
+}
+
+.person-detail {
+    height: auto;
+}
+.wrap-left,
+.wrap-right {
+     height: auto;
+     padding-bottom: 14px;
+   
+}
+.content .name {
+    line-height: 1.1;
+    margin-bottom: 9px;
+}
+.cgd-bold {
+    display: inline-block;
+    
+}
+
+
+
+
+
+.wrap-right,
+.wrap-left {
+    left: 0;
+    right: 0;
+    text-align: left;
+}
+.wrap-left .name,
+.wrap-right .name {
+    left: 0 !important;
+    right: 0 !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+.wrap-left .title,
+.wrap-right .title {
+    left: 0 !important;
+    right: 0 !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+
+.content-wrap.left-copy,
+.content-wrap.right-copy {
+	position: relative;
+	top: auto;
+	left: auto;
+	right: auto;
+	
+	width: auto;
+	margin-right: 55px;
+	margin-left: 20px;
+	text-align: left !important;
+	
+	margin-top: 30px;
+    	padding-bottom: 200px;
+
+}
+ 
+
+#stephanie,
+#kevin,
+#ian,
+#dave,
+#paul {
+    background-position: 40% 50%;
+}
+#robert,
+#frank,
+#ron,
+#silvie {
+    background-position: 60% 50%;
+}
+
+.gdc-arrow {
+    width: 75px;
+    height: 64px;
+}
+
+.content-wrap h2,
+.noback-content-wrap h2 {
+     font-size: 240% !important;
+     line-height: 1.2;
+     padding: 0 20px;
+  
+}
+.content h3,
+.noback-content-wrap h3 {
+    font-size: 240% !important;
+    line-height: 1.1;
+}
+.noback-content-wrap p,
+.content p {
+    font-size: 200%;
+	line-height: 1.2;
+}
+.content .name {
+    font-size: 160%;
+}
+.content .title {
+    font-size: 100%;
+}
+.noback-content-wrap p,
+.noback-content-wrap h3
+{
+  	position: relative;
+	top: auto;
+	left: auto;
+	right: auto;
+	
+	width: auto;
+	margin-right: 30px;
+	text-align: left !important;
+}
+.bottom-strip{
+	width: 100%;
+	height: 141px;
+	background-size: 686px 141px;
+	
+	margin: 0 auto;
+}
+}
+
+.text-black { color: #000; }
+.text-white { color: #fff; }
+.text-deepred { color: #ff2000
+}
