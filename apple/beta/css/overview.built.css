@@ -1334,25 +1334,25 @@ html.oldie .large-offset-12 {
     font-family:"AppleIcons";
     font-style:normal;
     font-weight:400;
-    src:url("../../fonts/AppleIcons-Text.eot");
-    src:url("../../fonts/AppleIcons-Text.eot?#iefix") format("embedded-opentype"), url("../../fonts/AppleIcons-Text.woff") format("woff"), url("../../fonts/AppleIcons-Text.ttf") format("truetype")
+    src:url("../../osx/fonts/AppleIcons-Text.eot");
+    src:url("../../osx/fonts/AppleIcons-Text.eot?#iefix") format("embedded-opentype"), url("../../osx/fonts/AppleIcons-Text.woff") format("woff"), url("../../osx/fonts/AppleIcons-Text.ttf") format("truetype")
 }
 @font-face {
     font-family:"AppleIcons";
     font-style:normal;
     font-weight:200;
-    src:url("../../fonts/AppleIcons-Thin.eot");
-    src:url("../../fonts/AppleIcons-Thin.eot?#iefix") format("embedded-opentype"), url("../../fonts/AppleIcons-Thin.woff") format("woff"), url("../../fonts/AppleIcons-Thin.ttf") format("truetype")
+    src:url("../../osx/fonts/AppleIcons-Thin.eot");
+    src:url("../../osx/fonts/AppleIcons-Thin.eot?#iefix") format("embedded-opentype"), url("../../osx/fonts/AppleIcons-Thin.woff") format("woff"), url("../../osx/fonts/AppleIcons-Thin.ttf") format("truetype")
 }
 @font-face {
     font-family:"AppleIcons";
     font-style:normal;
     font-weight:100;
-    src:url("../../fonts/AppleIcons-Ultralight.eot");
-    src:url("../../fonts/AppleIcons-Ultralight.eot?#iefix") format("embedded-opentype"), url("../../fonts/AppleIcons-Ultralight.woff") format("woff"), url("../../fonts/AppleIcons-Ultralight.ttf") format("truetype")
+    src:url("../../osx/fonts/AppleIcons-Ultralight.eot");
+    src:url("../../osx/fonts/AppleIcons-Ultralight.eot?#iefix") format("embedded-opentype"), url("../../osx/fonts/AppleIcons-Ultralight.woff") format("woff"), url("../../osx/fonts/AppleIcons-Ultralight.ttf") format("truetype")
 }
 .icon {
-    behavior:url("../../behaviors/icons.htc")
+    behavior:url("../../osx/behaviors/icons.htc")
 }
 .icon:before, .icon:after, .icon .icon-htc {
     display:inline-block;
@@ -1378,7 +1378,7 @@ html.oldie .large-offset-12 {
     padding-right:false
 }
 .icon-before {
-    behavior:url("../../behaviors/icons.htc")
+    behavior:url("../../osx/behaviors/icons.htc")
 }
 .icon-before:before, .icon-before:after, .icon-before .icon-htc {
     display:inline-block;
@@ -1404,7 +1404,7 @@ html.oldie .large-offset-12 {
     padding-right:false
 }
 .icon-standalone {
-    behavior:url("../../behaviors/icons.htc")
+    behavior:url("../../osx/behaviors/icons.htc")
 }
 .icon-standalone:before, .icon-standalone:after, .icon-standalone .icon-htc {
     display:inline-block;
@@ -1581,7 +1581,7 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
     content:""
 }
 .more {
-    behavior:url("../../behaviors/icons.htc")
+    behavior:url("../../osx/behaviors/icons.htc")
 }
 .more:before, .more:after {
     content:""
@@ -1616,25 +1616,25 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
     font-family:"AppleIcons";
     font-style:normal;
     font-weight:400;
-    src:url("../../fonts/AppleIcons-Text.eot");
-    src:url("../../fonts/AppleIcons-Text.eot?#iefix") format("embedded-opentype"), url("../../fonts/AppleIcons-Text.woff") format("woff"), url("../../fonts/AppleIcons-Text.ttf") format("truetype")
+    src:url("../../osx/fonts/AppleIcons-Text.eot");
+    src:url("../../osx/fonts/AppleIcons-Text.eot?#iefix") format("embedded-opentype"), url("../../osx/fonts/AppleIcons-Text.woff") format("woff"), url("../../osx/fonts/AppleIcons-Text.ttf") format("truetype")
 }
 @font-face {
     font-family:"AppleIcons";
     font-style:normal;
     font-weight:200;
-    src:url("../../fonts/AppleIcons-Thin.eot");
-    src:url("../../fonts/AppleIcons-Thin.eot?#iefix") format("embedded-opentype"), url("../../fonts/AppleIcons-Thin.woff") format("woff"), url("../../fonts/AppleIcons-Thin.ttf") format("truetype")
+    src:url("../../osx/fonts/AppleIcons-Thin.eot");
+    src:url("../../osx/fonts/AppleIcons-Thin.eot?#iefix") format("embedded-opentype"), url("../../osx/fonts/AppleIcons-Thin.woff") format("woff"), url("../../osx/fonts/AppleIcons-Thin.ttf") format("truetype")
 }
 @font-face {
     font-family:"AppleIcons";
     font-style:normal;
     font-weight:100;
-    src:url("../../fonts/AppleIcons-Ultralight.eot");
-    src:url("../../fonts/AppleIcons-Ultralight.eot?#iefix") format("embedded-opentype"), url("../../fonts/AppleIcons-Ultralight.woff") format("woff"), url("../../fonts/AppleIcons-Ultralight.ttf") format("truetype")
+    src:url("../../osx/fonts/AppleIcons-Ultralight.eot");
+    src:url("../../osx/fonts/AppleIcons-Ultralight.eot?#iefix") format("embedded-opentype"), url("../../osx/fonts/AppleIcons-Ultralight.woff") format("woff"), url("../../osx/fonts/AppleIcons-Ultralight.ttf") format("truetype")
 }
 .icon {
-    behavior:url("../../behaviors/icons.htc")
+    behavior:url("../../osx/behaviors/icons.htc")
 }
 .icon:before, .icon:after, .icon .icon-htc {
     display:inline-block;
@@ -1660,7 +1660,7 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
     padding-right:false
 }
 .icon-before {
-    behavior:url("../../behaviors/icons.htc")
+    behavior:url("../../osx/behaviors/icons.htc")
 }
 .icon-before:before, .icon-before:after, .icon-before .icon-htc {
     display:inline-block;
@@ -1686,7 +1686,7 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
     padding-right:false
 }
 .icon-standalone {
-    behavior:url("../../behaviors/icons.htc")
+    behavior:url("../../osx/behaviors/icons.htc")
 }
 .icon-standalone:before, .icon-standalone:after, .icon-standalone .icon-htc {
     display:inline-block;
@@ -1863,7 +1863,7 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
     content:""
 }
 .more {
-    behavior:url("../../behaviors/icons.htc")
+    behavior:url("../../osx/behaviors/icons.htc")
 }
 .more:before, .more:after {
     content:""
@@ -2594,7 +2594,7 @@ html.touch .paddlenav-arrow {
 }
 .paddlenav-arrow-left {
     left:0;
-    behavior:url("../../behaviors/icons.htc")
+    behavior:url("../../osx/behaviors/icons.htc")
 }
 .paddlenav-arrow-left:before, .paddlenav-arrow-left:after {
     content:""
@@ -2623,7 +2623,7 @@ html.touch .paddlenav-arrow {
 }
 .paddlenav-arrow-right {
     right:0;
-    behavior:url("../../behaviors/icons.htc")
+    behavior:url("../../osx/behaviors/icons.htc")
 }
 .paddlenav-arrow-right:before, .paddlenav-arrow-right:after {
     content:""

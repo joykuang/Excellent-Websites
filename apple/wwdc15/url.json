@@ -1,0 +1,8 @@
+{
+    "videoSrc": {
+        "hls": "hls_vod_mvp.m3u8",
+        "nonhls": "15oihbfovihbefvoib06_hd5_vod.mov"
+    },
+    "videoCC": "101_sd_keynote.vtt",
+    "state": "vod"
+}

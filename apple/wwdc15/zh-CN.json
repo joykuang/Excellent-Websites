@@ -1,0 +1,19 @@
+{
+	"play": "播放",
+	"pause": "暂停",
+	"fastreverse": "快退",
+	"fastforward": "快进",
+	"mutevolume": "静音",
+	"fullvolume": "最高音量",
+	"captionscontrol": "隐藏字幕",
+	"captionsturnedon": "隐藏字幕开启",
+	"captionsturnedoff": "隐藏字幕关闭",
+	"sizescontrol": "影片大小",
+	"downloadcontrol": "下载视频",
+	"sharecontrol": "共享视频",
+	"small": "小",
+	"medium": "中",
+	"large": "大",
+	"hd": "高清",
+	"ipod": "iPod/iPhone"
+}
